@@ -12,6 +12,11 @@
 		F5B15F102071F871002C1BF5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5B15F0E2071F871002C1BF5 /* Main.storyboard */; };
 		F5B15F122071F871002C1BF5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5B15F112071F871002C1BF5 /* Assets.xcassets */; };
 		F5B15F152071F871002C1BF5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5B15F132071F871002C1BF5 /* LaunchScreen.storyboard */; };
+		F5B15F222071FC45002C1BF5 /* frame3.png in Resources */ = {isa = PBXBuildFile; fileRef = F5B15F1D2071FC45002C1BF5 /* frame3.png */; };
+		F5B15F232071FC45002C1BF5 /* frame2.png in Resources */ = {isa = PBXBuildFile; fileRef = F5B15F1E2071FC45002C1BF5 /* frame2.png */; };
+		F5B15F242071FC45002C1BF5 /* frame1.png in Resources */ = {isa = PBXBuildFile; fileRef = F5B15F1F2071FC45002C1BF5 /* frame1.png */; };
+		F5B15F252071FC45002C1BF5 /* frame4.png in Resources */ = {isa = PBXBuildFile; fileRef = F5B15F202071FC45002C1BF5 /* frame4.png */; };
+		F5B15F262071FC45002C1BF5 /* frame5.png in Resources */ = {isa = PBXBuildFile; fileRef = F5B15F212071FC45002C1BF5 /* frame5.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +27,11 @@
 		F5B15F112071F871002C1BF5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F5B15F142071F871002C1BF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F5B15F162071F871002C1BF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5B15F1D2071FC45002C1BF5 /* frame3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = frame3.png; sourceTree = "<group>"; };
+		F5B15F1E2071FC45002C1BF5 /* frame2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = frame2.png; sourceTree = "<group>"; };
+		F5B15F1F2071FC45002C1BF5 /* frame1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = frame1.png; sourceTree = "<group>"; };
+		F5B15F202071FC45002C1BF5 /* frame4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = frame4.png; sourceTree = "<group>"; };
+		F5B15F212071FC45002C1BF5 /* frame5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = frame5.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +64,7 @@
 		F5B15F092071F871002C1BF5 /* Alion imageView */ = {
 			isa = PBXGroup;
 			children = (
+				F5B15F1C2071FC3D002C1BF5 /* New Group */,
 				F5B15F0A2071F871002C1BF5 /* AppDelegate.swift */,
 				F5B15F0C2071F871002C1BF5 /* ViewController.swift */,
 				F5B15F0E2071F871002C1BF5 /* Main.storyboard */,
@@ -62,6 +73,18 @@
 				F5B15F162071F871002C1BF5 /* Info.plist */,
 			);
 			path = "Alion imageView";
+			sourceTree = "<group>";
+		};
+		F5B15F1C2071FC3D002C1BF5 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				F5B15F1F2071FC45002C1BF5 /* frame1.png */,
+				F5B15F1E2071FC45002C1BF5 /* frame2.png */,
+				F5B15F1D2071FC45002C1BF5 /* frame3.png */,
+				F5B15F202071FC45002C1BF5 /* frame4.png */,
+				F5B15F212071FC45002C1BF5 /* frame5.png */,
+			);
+			path = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,9 +146,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5B15F232071FC45002C1BF5 /* frame2.png in Resources */,
 				F5B15F152071F871002C1BF5 /* LaunchScreen.storyboard in Resources */,
+				F5B15F252071FC45002C1BF5 /* frame4.png in Resources */,
 				F5B15F122071F871002C1BF5 /* Assets.xcassets in Resources */,
+				F5B15F242071FC45002C1BF5 /* frame1.png in Resources */,
+				F5B15F262071FC45002C1BF5 /* frame5.png in Resources */,
 				F5B15F102071F871002C1BF5 /* Main.storyboard in Resources */,
+				F5B15F222071FC45002C1BF5 /* frame3.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
